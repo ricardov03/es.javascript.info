@@ -2,9 +2,9 @@ importance: 5
 
 ---
 
-# Comparaciones
+# Comparisons
 
-¿Cuál será el resultado de las siguientes expresiones?
+What will be the result for these expressions?
 
 ```js no-beautify
 5 > 4
@@ -15,3 +15,4 @@ undefined === null
 null == "\n0\n"
 null === +"\n0\n"
 ```
+

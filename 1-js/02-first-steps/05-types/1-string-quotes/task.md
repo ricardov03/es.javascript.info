@@ -2,16 +2,16 @@ importance: 5
 
 ---
 
-# Comillas
+# String quotes
 
-Cuál es la salida del script?
+What is the output of the script?
 
 ```js
 let name = "Ilya";
 
-alert( `hola ${1}` ); // ?
+alert( `hello ${1}` ); // ?
 
-alert( `hola ${"name"}` ); // ?
+alert( `hello ${"name"}` ); // ?
 
-alert( `hola ${name}` ); // ?
+alert( `hello ${name}` ); // ?
 ```

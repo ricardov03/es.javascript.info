@@ -2,9 +2,9 @@ importance: 5
 
 ---
 
-# El resultado de OR AND OR
+# The result of OR AND OR
 
-¿Cuál será el resultado?
+What will the result be?
 
 ```js
 alert( null || 2 && 3 || 4 );

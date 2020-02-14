@@ -1,20 +1,20 @@
-La respuesta: el primero y el tercero serán ejecutados.
+The answer: the first and the third will execute.
 
-Detalles:
+Details:
 
 ```js run
-// Corre.
-// El resultado de -1 || 0 = -1, valor verdadero
-if (-1 || 0) alert( "primero" );
+// Runs.
+// The result of -1 || 0 = -1, truthy
+if (-1 || 0) alert( 'first' );
 
-// No corre.
-// -1 && 0 = 0, valor falso
-if (-1 && 0) alert( "segundo" );
+// Doesn't run
+// -1 && 0 = 0, falsy
+if (-1 && 0) alert( 'second' );
 
-// Se ejecuta
-// El operador && tiene mayor precedencia que ||
-// Así que -1 && 1 se ejecuta primero, dándonos la cadena:
+// Executes
+// Operator && has a higher precedence than ||
+// so -1 && 1 executes first, giving us the chain:
 // null || -1 && 1  ->  null || 1  ->  1
-if (null || -1 && 1) alert( "tercero" );
+if (null || -1 && 1) alert( 'third' );
 ```
 

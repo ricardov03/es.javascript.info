@@ -1,3 +1,3 @@
-# Una introducción
+# Una Introducción
 
-Acerca del lenguaje JavaScript y del ambiente para desarrollar con él.
+Acerca del JavaScript el lenguaje y sobre el entorno en el cuál podremos desarrollar.
